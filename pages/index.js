@@ -4,7 +4,6 @@ const Home = () => (
   <div className="container">
     <Head>
       <title>joelooney.org</title>
-      <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
