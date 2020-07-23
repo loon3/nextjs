@@ -10,18 +10,18 @@ const Home = () => (
     <main>
     
       <h1 className="title">
-        Welcome to joelooney.org!
+        joelooney.org
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.js</code>
+        Welcome!
       </p>
 
       <div className="grid">
-        <div className="card">
+        <a href="" className="card">
           <h3>About &rarr;</h3>
           <p>Keepin&rsquo; it funky.</p>
-        </div>
+        </a>
 
         <a href="https://thenounproject.com/jo3loon3y/" className="card">
           <h3>Icons &rarr;</h3>
