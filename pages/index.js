@@ -3,13 +3,14 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>joelooney.org</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
+    
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to joelooney.org!
       </h1>
 
       <p className="description">
@@ -17,33 +18,24 @@ const Home = () => (
       </p>
 
       <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <div className="card">
+          <h3>About &rarr;</h3>
+          <p>Keepin&rsquo; it funky.</p>
+        </div>
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+        <a href="https://thenounproject.com/jo3loon3y/" className="card">
+          <h3>Icons &rarr;</h3>
+          <p>I also draw icons!</p>
         </a>
 
         <a
-          href="https://vercel.com/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="mailto:hello@joelooney.org"
           className="card"
         >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
+          <h3>Contact &rarr;</h3>
+          <p>Send me a message!</p>
         </a>
+
       </div>
     </main>
 
